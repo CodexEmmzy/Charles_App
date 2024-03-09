@@ -28,3 +28,21 @@ export const posts = [
       imageSrc: "/fashion.png",
     },
   ];
+
+  export const socialLinks = [
+    {
+      name: "GitHub",
+      iconUrl: "./github.png",
+      link: "https://github.com/CodexEmmzy/",
+    },
+    {
+      name: "LinkedIn",
+      iconUrl: "./linkedin.png",
+      link: "https://www.linkedin.com/in/emmanuel-charles-0b0023250",
+    },
+    {
+      name: "Medium",
+      iconUrl: "./medium.png",
+      link: "https://medium.com/@emmaxcharles123/",
+    },
+  ];

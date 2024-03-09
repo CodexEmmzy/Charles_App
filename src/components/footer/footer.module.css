@@ -33,23 +33,17 @@
   gap: 10px;
 }
 
-/* .links {
-  flex: 1;
+.display {
   display: flex;
-  justify-content: flex-end;
-  gap: 100px;
+  gap: 30px;
 }
 
-.list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-weight: 300;
+.object_contain {
+  object-fit: contain;
+  height: 2rem;
+  width: 2rem;
+  align-items: center;
 }
-
-.listTitle {
-  font-weight: bold;
-} */
 
 @media screen and (max-width: 1024px) {
   .links {
