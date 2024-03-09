@@ -1,0 +1,81 @@
+:root {
+  --bg: white;
+  --textColor: black;
+  --softBg: #f0f0f0;
+  --softTextColor: #626262;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.dark {
+  --bg: #0f172a;
+  --textColor: #ddd;
+  --softBg: #1f273a;
+  --softTextColor: #a6a6a6;
+}
+
+.light {
+  --bg: white;
+  --textColor: black;
+  --softBg: #f0f0f0;
+  --softTextColor: #626262;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--textColor);
+}
+
+.wrapper {
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem; /* Adjust the left padding as needed */
+  padding-right: 1rem; /* Adjust the right padding as needed */
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 90vw; /* Adjust width for smaller screens */
+    padding-left: 1.5rem; /* Increase the left padding on smaller screens */
+    padding-right: 1.5rem; /* Increase the right padding on smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 90vw;
+    padding-left: 1rem; /* Adjust padding for smaller screens */
+    padding-right: 1rem; /* Adjust padding for smaller screens */
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    max-width: 90vw;
+    padding-left: 0.5rem; /* Adjust padding for smaller screens */
+    padding-right: 0.5rem; /* Adjust padding for smaller screens */
+  }
+}
+
+.ql-container{
+  font-size: 28px !important;
+}
+
+.quill > .ql-container > .ql-editor.ql-blank::before{
+  color: #b3b3b1;
+}
