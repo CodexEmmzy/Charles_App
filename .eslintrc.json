@@ -1,6 +1,6 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "eslint-rule-to-disable": "off"
+    "react/no-unescaped-entities": 0
   }
 }
