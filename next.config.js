@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images:{
-    domains:["lh3.googleusercontent.com","firebasestorage.googleapis.com"]
-  }
-}
+  // Set the output option to "export" to enable static HTML export
+  output: "export",
+  images: {
+    domains: ["lh3.googleusercontent.com", "firebasestorage.googleapis.com"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
