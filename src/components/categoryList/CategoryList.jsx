@@ -56,7 +56,7 @@ const CategoryList = () => {
                 height={32}
                 className={styles.image}
               />
-            )}
+           )}
             {item.title}
           </Link>
         ))}
